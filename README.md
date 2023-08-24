@@ -18,6 +18,6 @@ var_dump( Serial::random(10) ); // String(10) "5KGH89FSE4"
 var_dump( Serial::newSerial(4, 5, '-') ); // String(23) "UWB46-8SEER-6A46W-HADP8"
 
 //Custom formatted keys can also be generated, using `*` to donate where to replace the characters
-var_dump( Serial::costumSerial('H*E*L*L*O*W*O*R*L*D') ); // String(19) "HFEIL5LSO9WPO2RSLCD"
+var_dump( Serial::customFormat('H*E*L*L*O*W*O*R*L*D') ); // String(19) "HFEIL5LSO9WPO2RSLCD"
 
 ?>
